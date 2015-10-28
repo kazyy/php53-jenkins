@@ -1,6 +1,5 @@
 FROM centos:6
 RUN yum install -y epel-release
-RUN rpm -U --force http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 
 # PHP関連
 RUN yum install -y php
